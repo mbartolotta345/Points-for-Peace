@@ -1,5 +1,5 @@
 body {
-    background-color: green;
+    background-color: #E2E5DF;
     left:0px;
     outline:0;
     border:0;
@@ -14,7 +14,11 @@ body {
     height:100%;
 }
 
-
+.posts{
+    align-items: center;
+    padding: 0%;
+    margin: 0;
+}
 
 nav {
     float:left;
@@ -46,8 +50,11 @@ nav {
 
 .row{
     display: flex;
+    flex: 33.33%;
 }
 .column {
+    display: flex;
+    align:center;
     flex: 33.33%;
     padding: 5px;
   }
