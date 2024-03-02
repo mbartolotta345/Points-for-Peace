@@ -21,7 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Drop points button click event
     dropPointsBtn.addEventListener('click', function () {
-        points -= 5; // Change the amount as needed
+        if (points > 0) {
+            points -= 5; // Change the amount as needed
+        }
         updatePoints();
     });
 });
