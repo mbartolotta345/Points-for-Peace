@@ -52,12 +52,26 @@ nav {
     margin:0;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .row{
     display: flex;
     flex: 33.33%;
+    opacity: 0;
+    animation: fadeIn .5s ease-in-out forwards; 
+
 }
 .column {
     display: flex;
     flex: 33.33%;
     padding: 5px;
   }
+
+  

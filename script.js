@@ -1,29 +1,64 @@
 document.addEventListener('DOMContentLoaded', function () {
+    // Retrieve points from local storage or set default value
     let points = parseInt(localStorage.getItem('points')) || 0;
+
     const pointsDisplay = document.getElementById('points');
-    const addPointsBtn = document.getElementById('add-points-btn');
-    const dropPointsBtn = document.getElementById('drop-points-btn');
 
     // Function to update points display
     function updatePoints() {
         pointsDisplay.textContent = points;
+        // Update points in local storage
         localStorage.setItem('points', points.toString());
-    
     }
 
+    // Initialize points display
     updatePoints();
 
-    // Add points button click event
-    addPointsBtn.addEventListener('click', function () {
-        points += 10; // Change the amount as needed
-        updatePoints();
-    });
+    // Attach click event listeners to each button
+    function attachButtonClickEvent(buttonId, pointsChange) {
+        const button = document.getElementById(buttonId);
+        button.addEventListener('click', function () {
+            points += pointsChange; // Change the amount as needed
+            updatePoints();
+        });
+    }
 
-    // Drop points button click event
-    dropPointsBtn.addEventListener('click', function () {
-        if (points > 0) {
-            points -= 5; // Change the amount as needed
-        }
-        updatePoints();
-    });
+    // Example: Add points button click event
+    attachButtonClickEvent('add-points-btn-1', 10);
+
+    // Example: Another add points button click event
+    attachButtonClickEvent('add-points-btn-2', 5);
+
+    // Example: Add points button click event
+    attachButtonClickEvent('add-points-btn-3', 10);
+
+    // Example: Add points button click event
+    attachButtonClickEvent('add-points-btn-4', 10);
+
+    // Example: Add points button click event
+    attachButtonClickEvent('add-points-btn-5', 10);
+
+    // Example: Add points button click event
+    attachButtonClickEvent('add-points-btn-6', 10);
+
+    // Example: Drop points button click event
+    attachButtonClickEvent('drop-points-btn', -5);
+
+    // Example: Drop points button click event
+    attachButtonClickEvent('drop-points-btn-1', -5);
+
+    // Example: Drop points button click event
+    attachButtonClickEvent('drop-points-btn-2', -5);
+
+    // Example: Drop points button click event
+    attachButtonClickEvent('drop-points-btn-3', -5);
+
+    // Example: Drop points button click event
+    attachButtonClickEvent('drop-points-btn-4', -5);
+
+    // Example: Drop points button click event
+    attachButtonClickEvent('drop-points-btn-5', -5);
+
+    // Example: Drop points button click event
+    attachButtonClickEvent('drop-points-btn-6', -5);
 });
