@@ -38,6 +38,10 @@ nav {
     margin:0px;
 }
 
+.user {
+    float:right;
+}
+
 #content{
 
     background-color:blue;
@@ -54,7 +58,6 @@ nav {
 }
 .column {
     display: flex;
-    align:center;
     flex: 33.33%;
     padding: 5px;
   }
