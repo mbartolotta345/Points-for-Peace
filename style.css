@@ -27,6 +27,10 @@ nav {
     margin:0;
 }
 
+#navtext {
+    padding: 100px;
+}
+
 #content{
 
     background-color:blue;
