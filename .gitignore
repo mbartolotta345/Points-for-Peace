@@ -1,0 +1,5 @@
+# Ignore Node.js specific files and folders
+node_modules/
+
+# Ignore Visual Studio Code settings
+.vscode/
