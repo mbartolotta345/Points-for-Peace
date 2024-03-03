@@ -99,4 +99,12 @@ nav {
     
   }
 
-  
+  a:visited { 
+    text-decoration: none; 
+    color:rgb(5, 154, 5); 
+   }
+
+a:hover { 
+    text-decoration: none; 
+    color:rgb(3, 122, 3); 
+}
