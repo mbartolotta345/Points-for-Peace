@@ -20,12 +20,20 @@ nav {
     padding-right:50px;
     left:0px;
     width:80%;
+
+    
+    opacity: 0;
+    animation: fadeIn .5s ease-in-out forwards; 
   }
 
 .goal {
     font-size: 70px;
     width:80%;
     padding-top:40px;
+
+    
+    opacity: 0;
+    animation: fadeIn .5s ease-in-out forwards; 
 }
 
 body {
@@ -70,6 +78,9 @@ body {
 .photo {
     padding-right:150px;
     padding-top:140px;
+
+    opacity: 0;
+    animation: fadeIn .5s ease-in-out forwards; 
 }
 
 .background {
@@ -89,4 +100,13 @@ a:visited {
 a:hover { 
     text-decoration: none; 
     color:rgb(3, 122, 3); 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
