@@ -1,22 +1,58 @@
 nav {
-    float:left;
     background-color: brown;
-    font-family: 'Montserrat';
     font-size: 30px;
+}
+
+.about {
+    background-color: white;
+    font-size: 20px;
+    padding-left:50px;
+    padding-right:50px;
+    left:0px;
+    width:80%;
+  }
+
+.goal {
+    font-size: 50px;
+    width:80%;
+    padding-top:40px;
+}
+
+body {
+    float:left;
+    background-color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
     width:100%;
-    padding:0px;
     position:absolute;
     outline:0;
     border:0;
     margin:0;
 }
 
-body {
-    background-color: white;
-    font-size: 20px;
-    padding: 0px;
-    left:0px;
-    outline:0;
-    border:0;
-    margin:0;
+.navtext {
+    padding:0px;
+    margin:0px;
+}
+
+.user {
+    float:right;
+}
+
+.row{
+    display: flex;
+    flex: 33.33%;
+    opacity: 0;
+    animation: fadeIn .5s ease-in-out forwards; 
+
+}
+.column {
+    display: flex;
+    flex: 33.33%;
+    padding: 5px;
   }
+
+.photo {
+    padding-right:120px;
+    padding-top:50px;
+}
