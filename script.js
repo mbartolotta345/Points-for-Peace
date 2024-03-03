@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Example: Add points button click event
     attachButtonClickEvent('add-points-btn-6', 10);
+    attachButtonClickEvent('add-points-btn-7', 10);
 
     // Example: Drop points button click event
     attachButtonClickEvent('drop-points-btn', -5);
