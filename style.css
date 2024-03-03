@@ -108,3 +108,11 @@ a:hover {
     text-decoration: none; 
     color:rgb(3, 122, 3); 
 }
+
+.title {
+    color:white;
+    font-size:60px;
+    padding:20px;
+    padding-bottom:30px;
+    text-align:center;
+  }
