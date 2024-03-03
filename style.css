@@ -41,21 +41,19 @@ body {
 
 nav {
     float:left;
-    background-color: brown;
+    background-color: rgb(211, 219, 213);
     font-family: 'Montserrat';
     font-size: 30px;
+    color: blue;
+    padding: 20px 10px;
     width:100%;
-    padding:0px;
     position:absolute;
     outline:0;
     border:0;
     margin:0;
 }
 
-.navtext {
-    padding: 0px;
-    margin:0px;
-}
+
 
 .user {
     float:right;
