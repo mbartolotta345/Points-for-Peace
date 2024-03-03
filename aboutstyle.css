@@ -51,6 +51,7 @@ body {
 
 .user {
     float:right;
+    padding-right:30px;
 }
 
 .row{
@@ -78,4 +79,14 @@ body {
     background-size: cover;
     background-blend-mode: multiply;
     background-position: center;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color:rgb(5, 154, 5); 
+   }
+
+a:hover { 
+    text-decoration: none; 
+    color:rgb(3, 122, 3); 
 }

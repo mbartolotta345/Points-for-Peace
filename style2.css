@@ -5,3 +5,18 @@
     flex: 33.33%;
     padding: 5px;
   }
+
+  a:visited { 
+    text-decoration: none; 
+    color:rgb(5, 154, 5); 
+   }
+
+a:hover { 
+    text-decoration: none; 
+    color:rgb(3, 122, 3); 
+}
+
+.user {
+    float:right;
+    padding-right:30px;
+}
