@@ -60,3 +60,12 @@ a:hover {
     color:rgb(3, 122, 3); 
 }
 
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
